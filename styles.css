@@ -1,0 +1,113 @@
+
+/* Custom Font */
+@font-face {
+    font-family: "Slapstick";
+    src: url("./fonts/SF Slapstick Comic Bold.ttf");
+}
+@font-face {
+    font-family: "SlapShaded";
+    src: url("./fonts/SF Slapstick Comic Shaded.ttf");
+}
+/* General Rules */
+h2, .aboutme > article > h4 {
+    font-family: "SlapShaded", Arial, courier;
+    font-size: 38pt;
+}
+
+/*Color Schema*/
+
+body{
+    background-color: #FFC2B4;
+}
+.navbar{
+    background-color: #FB8F67;
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+
+.navbaritem { 
+    font-size: 58pt;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbaritem:hover{
+    background-color: #d7de90;
+    border-radius: 10px;
+}
+.navbaritem:active{
+    background-color: lightslategrey;
+}
+.currentpage {
+    border-radius: 10px;
+    background-color: #F5FF90;
+    font-weight: bold;
+}
+/* Featured Cakes */
+.featuredcakes > h2 {
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #D0F4DE;
+}
+
+.fcdiv > img{
+    display: block;
+    margin:auto;
+}
+.fcdiv > h3{
+    display: block;
+    text-align: center;
+    font-size: 24pt;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #D6FFB7;
+    font-family: "Slapstick", Arial, Courier;
+}
+.fcdiv > p, .aboutme > article > p {
+    border-radius: 15px;
+    border-style: none;
+    background-color: #f5bbae;
+}
+/* About The Company */
+.aboutme >article >  h4 {
+    text-align: center;
+    display:block;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #D0F4DE;
+}
+.bottomfooter {
+    background-color: #303030;
+    padding: 30px;
+    margin: 0px, -10px, -10px, -10px;
+}
+.footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(2%, auto);
+}
+.footer > a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer > a:hover{
+    background-color: #202020;
+    border-radius: 40px;
+}
+.footer > a:active{
+    background-color: black;
+    border-radius: 40px;
+}

@@ -51,7 +51,7 @@ body{
     font-weight: bold;
 }
 /* Featured Cakes */
-.featuredcakes > h2, .gallery > h2 {
+.featuredcakes > h2, .gallery > h2, .mainform > h2 {
     display: block;
     text-align: center;
     border-radius: 20px;
@@ -63,19 +63,21 @@ body{
     display: block;
     margin:auto;
 }
-.fcdiv > h3, .cakedescription > h2{
+.fcdiv > h3, .cakedescription > h2, .hours > h3{
     display: block;
     text-align: center;
-    font-size: 24pt;
+    font-size: 36pt;
     border-radius: 10px;
     border-style: none;
     background-color: #D6FFB7;
     font-family: "Slapstick", Arial, Courier;
 }
+/* Paragraph Texts */
 .fcdiv > p, .aboutme > article > p, .cakedescription > p {
     border-radius: 15px;
     border-style: none;
     background-color: #f5bbae;
+    text-align: center;
 }
 /* About The Company */
 .aboutme >article >  h4 {
@@ -90,6 +92,8 @@ body{
     padding: 30px;
     width: 100%;
     margin: -10px;
+    position: sticky;
+    bottom: 0;
 }
 .footer {
     display:grid;
@@ -97,7 +101,7 @@ body{
     grid-auto-rows: minmax(2%, auto);
     
 }
-.footer > a {
+.footer > a, footer > p{
     text-decoration: none;
     text-align: center;
     color: white;
@@ -127,4 +131,53 @@ body{
 .gallerysect > img {
     width: 100%;
     margin: auto;
+}
+/* Contact Us Form */
+form  > input{
+    width: 50%;
+    height: 30px;
+    margin: 20px;
+    font-size: 20pt;
+
+    
+}
+
+
+.mainform {
+    margin: 10px;
+    margin-bottom: 1em;
+    padding: 20px;
+}
+.mainform > form > label{
+    font-size: 30pt;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #D6FFB7;
+    
+
+}
+.mainform > form > a{
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #D0F4DE;
+}
+.mainform > form{
+    text-align: center;
+}
+/* Hours */
+.hours > ul{
+    text-align: center;
+    font-size: 30pt;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hours > iframe{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;    
 }

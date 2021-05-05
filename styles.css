@@ -209,8 +209,8 @@ footer > p{
         text-align: center;
         margin-left: 1%;
         margin-right: 1%;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-bottom: auto;
+        margin-top: auto;
         text-decoration: none;
         color: black;
         font-family: Arial, Helvetica, sans-serif;

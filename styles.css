@@ -192,7 +192,7 @@ footer > p{
     .navbar{
         background-color: #FB8F67;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
         grid-auto-rows: minmax(2%, auto);
         margin: 0px;
     } 
